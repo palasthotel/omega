@@ -1,0 +1,49 @@
+#omega {
+	position: absolute;
+	top:200px;
+	left:200px;
+	border:1px solid rgba(145,151,162,.25);
+	padding:0px;
+	background:white;
+}
+
+#omega > * {
+	padding:15px 40px;
+}
+
+.omega-hide {
+	float:right;
+	cursor: pointer;
+}
+
+button.omega-hide {
+	padding: 4px 6px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #595959;
+	text-align: center;
+	border-radius: 3px;
+	margin-bottom:15px;
+}
+
+#omega-header,
+#omega-content {
+	border-bottom:1px solid rgba(145,151,162,.25);
+}
+
+
+#omega-highlight {
+	float:right;
+	width:100px;
+	height:200px;
+	padding:20px;
+	}
+
+
+.omega-character {
+	font-size:60px;
+	line-height: 1;
+	margin-top:0;
+	margin-bottom:20px;
+
+}
